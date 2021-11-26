@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,500;1,400;1,500;1,600&family=Montserrat:ital,wght@0,400;0,500;0,600;0,900;1,600;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    color: #ffffff;
+}
+:root {
+    --fonte-primária : "Poppins", sans-serif;
+    --fonte-secundaria :"josefin Slab",sans-serif;
+}
+header a {
+    font-family: var(--fonte-primária);
+}
+main p {
+    font-family: var(--fonte-secundaria);
+    text-shadow: .2rem .2rem rgba(0, 0, 0, .4);
+    font-weight: 500;
+}
+section h2 {
+    font-family: var(--fonte-primária);
+}
+.img-carousel {
+    object-fit: cover;
+    opacity: 0.9;
+}
+body {
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526);
+}
