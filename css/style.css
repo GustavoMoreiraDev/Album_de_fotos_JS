@@ -21,6 +21,10 @@ main p {
 section h2 {
     font-family: var(--fonte-primária);
 }
+section a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .img-carousel {
     object-fit: cover;
     opacity: 0.9;
