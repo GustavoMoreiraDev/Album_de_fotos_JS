@@ -1,5 +1,5 @@
 ## Album-de-Fotos
 
-# Um album de Fotos.
+# Etapas do Projeto.
 
-# Fiz 
+# Projeto Concluido.

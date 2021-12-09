@@ -117,4 +117,10 @@ footer span {
   color: #ffffffb2;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  footer span {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
