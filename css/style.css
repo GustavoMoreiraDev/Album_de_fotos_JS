@@ -46,6 +46,7 @@ body {
 }
 .root .img-wrapper {
     background-color:#666869;
+    margin-left: 4vmax;
     width: 250px;
 }
 .root .img {
