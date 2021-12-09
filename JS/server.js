@@ -107,5 +107,8 @@ class Album_de_fotos {
       })
     }
   }
-  
+
   const root = new Album_de_fotos
+
+
+  
