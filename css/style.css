@@ -10,8 +10,11 @@
     --fonte-primária : "Poppins", sans-serif;
     --fonte-secundaria :"josefin Slab",sans-serif;
 }
-header a {
+header {
     font-family: var(--fonte-primária);
+}
+.topo {
+    background-color: #383c3d;
 }
 main p {
     font-family: var(--fonte-secundaria);
@@ -34,3 +37,51 @@ body {
     background: -webkit-linear-gradient(to right, #414345, #232526); 
     background: linear-gradient(to right, #414345, #232526);
 }
+.root {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    grid-gap: 20px;
+}
+.root .img-wrapper {
+    background-color:#666869;
+    width: 250px;
+}
+.root .img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 5px;
+}
+.btn-section {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    cursor: default;
+    margin-top: 10px;
+}
+.btn-section .next-page {
+    font-family: var(--fonte-primária);
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ffffff00;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.btn-section .next-page:hover {
+   background-color: #817e7e60;
+}
+footer span {
+    cursor: default;
+    color: #ffffffb2 ;
+}
+.contato li a {
+    color: #ffffffb2 ;
+    text-decoration: none;
+}
+
