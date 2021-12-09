@@ -2,7 +2,7 @@ class Album_de_fotos {
   
     async GetPhotos (index){
       
-      const BaseUrl = `https://api.pexels.com/v1/curated?page=${index}&per_page=10`
+      const BaseUrl = `https://api.pexels.com/v1/curated?page=${index}&per_page=12`
       const data = await this.fetchImagens(BaseUrl)
       this.NextPage.setAttribute('data-img', 'curated');
       this.GenerateHTML(data.photos)
@@ -48,7 +48,7 @@ class Album_de_fotos {
       this.galeriaDIv.innerHTML=''
       const searchValue = e.target.querySelector('input').value
       this.searchValueGlobal = searchValue
-      const BaseUrl = `https://api.pexels.com/v1/search?query=${searchValue}&page=1&per_page=10`
+      const BaseUrl = `https://api.pexels.com/v1/search?query=${searchValue}&page=1&per_page=12`
       const data = await this.fetchImagens(BaseUrl)
       this.GenerateHTML(data.photos)
       e.target.reset()
@@ -56,7 +56,7 @@ class Album_de_fotos {
   
     async getMoreSearchedImagens(index){
     
-      const BaseUrl = `https://api.pexels.com/v1/search?query=${this.searchValueGlobal}&page=${index}&per_page=10`
+      const BaseUrl = `https://api.pexels.com/v1/search?query=${this.searchValueGlobal}&page=${index}&per_page=12`
       const data = await this.fetchImagens(BaseUrl)
       console.log(data)
       this.GenerateHTML(data.photos)
