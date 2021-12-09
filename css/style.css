@@ -67,7 +67,6 @@ body {
 .btn-section {
     display: flex;
     justify-content: center;
-    text-decoration: none;
     cursor: default;
     margin-top: 10px;
 }
@@ -81,6 +80,7 @@ body {
     border: solid 2px rgb(255, 255, 255);
     border-radius: 15px;
     padding: 5px 10px;
+    text-decoration: none;
     transition: 0.3s;
 }
 .btn-section .next-page:hover {
