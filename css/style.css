@@ -6,6 +6,14 @@
     border: 0; 
     color: #ffffff;
 }
+.custom-class, .os-scrollbar, .os-scrollbar-track {
+    border: 0;
+    color: #27272709 !important;
+    }
+    .custom-class .os-scrollbar .os-scrollbar-track .os-scrollbar-handle {
+    border-radius: 0;
+    background-color: #a044ff !important;
+    }
 :root {
     --fonte-primária : "Poppins", sans-serif;
     --fonte-secundaria :"josefin Slab",sans-serif;
