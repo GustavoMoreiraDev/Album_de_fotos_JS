@@ -13,7 +13,9 @@
     --fonte-secundaria :"josefin Slab",sans-serif;
 }
 body {
-    background-color: green;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526);
 }
 header {
     font-family: var(--fonte-primária);
@@ -36,11 +38,6 @@ section a {
 .img-carousel {
     object-fit: cover;
     opacity: 0.9;
-}
-body {
-    background: #232526;
-    background: -webkit-linear-gradient(to right, #414345, #232526); 
-    background: linear-gradient(to right, #414345, #232526);
 }
 .root {
     margin-top: 3rem;
